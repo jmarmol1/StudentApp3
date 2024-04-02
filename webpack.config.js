@@ -4,7 +4,7 @@ const Dotenv = require('dotenv-webpack');
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:8083/",
+    publicPath: "https://student-app3.vercel.app/",
   },
 
   resolve: {
